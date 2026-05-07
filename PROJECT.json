@@ -3,6 +3,7 @@
   "description": "macOS menu bar app showing live ping latency and packet loss to 8.8.8.8 (built for spotty WNC internet)",
   "group": "Personal",
   "stage": "building",
+  "repository": "https://github.com/liesto/Internet-Status-Menu-Bar",
   "tags": ["macos", "swiftui", "appkit", "menubar", "swift"],
   "completed": [
     "Scaffold Swift sources (PingBarApp, PingMonitor, ContentView)",
