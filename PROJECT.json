@@ -1,0 +1,19 @@
+{
+  "title": "Internet Status App",
+  "description": "macOS menu bar app showing live ping latency and packet loss to 8.8.8.8 (built for spotty WNC internet)",
+  "group": "Personal",
+  "stage": "building",
+  "tags": ["macos", "swiftui", "appkit", "menubar", "swift"],
+  "completed": [
+    "Scaffold Swift sources (PingBarApp, PingMonitor, ContentView)",
+    "Set up Xcode project with App Sandbox disabled",
+    "Switch from MenuBarExtra to NSStatusItem for true colored dot",
+    "Build runs successfully from Xcode with colored status indicator"
+  ],
+  "next": [
+    "Copy InternetStatus.app from Build folder to /Applications",
+    "Add InternetStatus to System Settings → Login Items",
+    "Live with it for a few days, see if defaults (host, interval, thresholds) feel right"
+  ],
+  "updatedAt": "2026-05-06"
+}
